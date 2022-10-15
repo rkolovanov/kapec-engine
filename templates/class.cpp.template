@@ -1,0 +1,12 @@
+/**
+ * \proj ${projectDescription} (${projectName})
+ * \file Файл исходного кода ${sourceFileName}
+ *
+ * Copyright (c) ${year} Rodion Kolovanov
+ */
+
+#include <${classHeaderIncludePath}>
+
+namespace ${projectNamespace}::${namespaceName}
+{
+} // namespace ${projectNamespace}::${namespaceName}

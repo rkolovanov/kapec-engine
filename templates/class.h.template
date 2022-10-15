@@ -1,0 +1,19 @@
+/**
+ * \proj ${projectDescription} (${projectName})
+ * \file Заголовочный файл ${headerFileName}
+ * \brief Класс ${className}
+ *
+ * Copyright (c) ${year} Rodion Kolovanov
+ */
+
+#ifndef ${header}
+#define ${header}
+
+namespace ${projectNamespace}::${namespaceName}
+{
+  class ${className}
+  {
+  }; // class ${className}
+} // namespace ${projectNamespace}::${namespaceName}
+
+#endif // ${header}

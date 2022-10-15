@@ -1,0 +1,23 @@
+/**
+ * \proj ${projectDescription} (${projectName})
+ * \file Файл исходного кода ${testSourceFileName}
+ * \brief Тесты класса ${className}
+ *
+ * Copyright (c) ${year} Rodion Kolovanov
+ */
+
+#include <${classHeaderIncludePath}>
+#include <gtest/gtest.h>
+
+namespace ${projectNamespace}::${namespaceName}
+{
+  TEST(${testName}, Functional)
+  {
+  }
+}
+
+int main(int argc, char** argv)
+{
+  testing::InitGoogleTest(&argc, argv);
+  return RUN_ALL_TESTS();
+}
